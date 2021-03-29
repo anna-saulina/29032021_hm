@@ -10,8 +10,11 @@ class Main {
             System.out.println("Chair has " + chair.getNoOfLegs() + " legs.");
             System.out.println("Chair color is " + chair.getColor());
             System.out.println("Office Chair wheels type is " + officeChair.getWheels());
-            System.out.println("Bar chair color is " + barChair.getColor());
+            System.out.println("Office Chair color is " + officeChair.getColor());
+            System.out.println("Barchair color is " + barChair.getColor());
+            System.out.println("Barchair color is " + barChair.getHeight());
             System.out.println("Sofa cover material is " + sofa.getMaterial());
+            System.out.println("Sofa brand " + sofa.getBrand());
 
         }
 
