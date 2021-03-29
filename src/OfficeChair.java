@@ -2,27 +2,20 @@ public class OfficeChair extends  Chair {
 
     private String wheels;
 
-    public OfficeChair(String human, int legs, String color) {
-        super(human, legs, color);
-        this.wheels="Rollers";
+    public OfficeChair (String brand, int legs, String color, String wheels){
+        super(brand, legs, color);
+        this.wheels=wheels;
     }
 
-    public OfficeChair (String human, int legs, String color) {
-        super(human, legs, color);
-        this.wheels="Rollers";
-    }
-
-    public OfficeChair (String human, int legs, String color) {
-        super(human, legs, color);
-    }
-
-    public String getHeight() {
+    public String getWheels() {
         return wheels;
     }
 
-    public void setHeight(String height) {
+    public void setWheels(String wheels) {
         this.wheels = wheels;
     }
 }
+
+
 
 

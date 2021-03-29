@@ -1,14 +1,9 @@
-public class Chair extends ProFurnuture {
+public class Chair extends ProFurniture {
 
     private String color;
 
-    public Chair(String human, int legs) {
-        super(human, legs);
-        this.color="Black";
-    }
-
-    public Chair(String human, int legs, String color){
-        super(human, legs);
+    public Chair(String brand, int legs, String color){
+        super(brand, legs);
         this.color=color;
     }
 
